@@ -48,103 +48,165 @@
             </ul>
         </div>
     </header>
-    <main>
-        <section>
-            <aside>
-                <h2>browse by category</h2>
-                <ul>
-                    <li>Lorem.</li>
-                    <li>Similique.</li>
-                    <li>Praesentium?</li>
-                    <li>Et?</li>
-                    <li>Rerum.</li>
-                    <li>Dignissimos.</li>
-                    <li>Tempore?</li>
-                    <li>Error?</li>
-                    <li>Consequuntur!</li>
-                    <li>Assumenda.</li>
+    <main class="main records-main">
+        <section class="section records-section">
+            <aside class="aside">
+                <h2 class="aside-header">browse by category</h2>
+                <ul class="aside-nav nav flex-column">
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Lorem.</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Similique.</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Praesentium?</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Et?</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Rerum.</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Dignissimos.</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Tempore?</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Error?</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Consequuntur!</a></li>
+                    <li class="nav-item aside-item">
+                        <a class="nav-link aside-link">Assumenda.</a></li>
                 </ul>
             </aside>
-            <h2>shop all</h2>
-            <p class="item-total">1000 results</p>
-            <!-- these will be cards -->
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="https://via.placeholder.com/150x150" alt="placeholder img" class="img-fluid" />
-                <figcaption>
-                    <p class="album">
-                        <span class="artist">Artist Name</span> - <span class="album-title">Album Title</span>
-                    </p>
-                    <p class="price">$10.00</p>
-                </figcaption>
-            </figure>
+            <div class="records-content container">
+                <h2 class="records-content-h2">shop all</h2>
+                <p class="item-total">1000 results</p>
+                <!-- these will be cards -->
+
+                <div class="row row-cols-2 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <a href="record-single.html">
+                                <h3 class="card-title">Album Title</h3></a>
+                                    <p class="card-text artist">Album Artist</p>
+                                    <p class="card-text album-price">$10.00</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="availability">In Stock</p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <h3 class="card-title">Album Title</h3>
+                                <p class="card-text artist">Album Artist</p>
+                                <p class="card-text album-price">$10.00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="availability">In Stock</p>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <h3 class="card-title">Album Title</h3>
+                                <p class="card-text artist">Album Artist</p>
+                                <p class="card-text album-price">$10.00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="availability">In Stock</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <h3 class="card-title">Album Title</h3>
+                                <p class="card-text artist">Album Artist</p>
+                                <p class="card-text album-price">$10.00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="availability">In Stock</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <h3 class="card-title">Album Title</h3>
+                                <p class="card-text artist">Album Artist</p>
+                                <p class="card-text album-price">$10.00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="availability">Sold Out</p>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <h3 class="card-title">Album Title</h3>
+                                <p class="card-text artist">Album Artist</p>
+                                <p class="card-text album-price">$10.00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="availability">Sold Out</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <h3 class="card-title">Album Title</h3>
+                                <p class="card-text artist">Album Artist</p>
+                                <p class="card-text album-price">$10.00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="availability">Sold Out</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/50x50" alt="album image" class="img-fluid album-card" />
+                            <div class="card-body">
+                                <h3 class="card-title">Album Title</h3>
+                                <p class="card-text artist">Album Artist</p>
+                                <p class="card-text album-price">$10.00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="availability">Sold Out</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </section>
     </main>
-    <footer>
-        <h2 class="branding footer-branding">daddy bug's records</h2>
-        <p class="colophon">site by satchwerk&copy;2021</p>
+    <footer class="footer records-footer">
+        <div class="branding-div">
+            <h2 class="branding footer-branding">daddy bug's records</h2>
+        </div>
+        <div class="colophon-div">
+            <p class="colophon">site by satchwerk&copy;2021</p>
+            <p class="top-link">Back to <a href="#top">Top</a></p>
+        </div>
         <div class="contact" id="contact">
             <ul>
                 <li>email</li>
@@ -153,7 +215,6 @@
                 <li>twitter</li>
             </ul>
         </div>
-        <p class="top-link">Back to <a href="#top">Top</a></p>
     </footer>
 </body>
 </html>

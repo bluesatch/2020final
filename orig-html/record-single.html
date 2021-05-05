@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>(Title - Artist)</title>
 </head>
 <body>
@@ -47,58 +48,70 @@
             </ul>
         </div>
     </header>
-    <main>
-        <!-- put a breadcrumb here -->
-        <h2>artist name - album title</h2>
-        <section>
-            <img src="https://via.placeholder.com/500x500" alt="placeholder img" class="img-fluid" />
-        </section>
-        <section>
-            <div class="album-desc">
-                <p>artist - album title</p>
-                <p>$10.00</p>
-                <ul>
-                    <li>Media: NM</li>
-                    <li>Jacket: NM</li>
-                    <li>Satch Records - 34998(US)(2021)</li>
-                    <li>Record is in greate condition; so marks, warps or skips.</li>
-                </ul>
+    <main class="main record-single-main container">
+        <div class="row">
+            <div class="col-md-6">
+                <section class="section record-sg-img-sec">
+                    <!-- put a breadcrumb here -->
+                    <h2 class="rec-sg-album-h2">artist name - album title</h2>
+                    <img src="https://via.placeholder.com/500x500" alt="placeholder img" class="img-fluid" />
+                </section>
             </div>
-            <div class="shipping-details">
-                <p>how would you like to receive your item?</p>
-                <form action="">
-                    <label for="receiveItem">
-                        <input type="radio" name="receiveItem" value="shipping" />
-                        Shipping
-                    </label>
-                    <label for="receiveItem">
-                        <input type="radio" name="receiveItem" value="store" />
-                        Store Pickup
-                        <address>
-                            <p class="store-name">Daddy Bug Records</p>
-                            <p>123 Sesame Street</p>
-                            <p>Jackson, Ms 39000</p>
-                        </address>
-                    </label>
-                </form>
-            </div>
-            <div class="add-to-cart">
-                <label for="quantity">
-                    Quantity <span class="required">*</span>
-                    <!-- quantity buttons -->
-                    <div class="quantity-buttons">
-                        <button type="button">-</button>
-                        <p id="quantityTotal">1</p>
-                        <button type="button">+</button>
+            <div class="col-md-6">
+                <section class="section record-sg-desc">
+                    <div class="album-desc">
+                        <p class="record-sg-artist">artist - album title</p>
+                        <p class="record-sg-price">$10.00</p>
+                        <ul class="nav flex-column record-desc-nav">
+                            <li class="nav-item record-desc-item">Media: NM</li>
+                            <li class="nav-item record-desc-item">Jacket: NM</li>
+                            <li class="nav-item record-desc-item">Satch Records - 34998(US)(2021)</li>
+                            <li class="nav-item record-desc-item">Record is in greate condition; so marks, warps or skips.</li>
+                        </ul>
                     </div>
-                </label>
-                <button class="add-to-cart">add to cart</button>
+                    <div class="shipping-details">
+                        <p class="shipping-text">How would you like to receive your item?</p>
+                        <form action="">
+                            <label for="receiveItem">
+                                <input type="radio" name="receiveItem" value="shipping" />
+                                Shipping
+                            </label>
+                            <label for="receiveItem">
+                                <input type="radio" name="receiveItem" value="store" />
+                                Store Pickup
+                                <address>
+                                    <p class="store-name">Daddy Bug Records</p>
+                                    <p>123 Sesame Street</p>
+                                    <p>Jackson, Ms 39000</p>
+                                </address>
+                            </label>
+                        </form>
+                    </div>
+                    <div class="add-to-cart">
+                        <label for="quantity">
+                            Quantity <span class="required">*</span>
+                            <!-- quantity buttons -->
+                            <div class="quantity-buttons">
+                                <button type="button">-</button>
+                                <p id="quantityTotal">1</p>
+                                <button type="button">+</button>
+                            </div>
+                        </label>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
+       
     </main>
-    <footer>
-        <h2 class="branding footer-branding">daddy bug's records</h2>
-        <p class="colophon">site by satchwerk&copy;2021</p>
+    <footer class="footer record-single-footer">
+        <div class="branding-div">
+            <h2 class="branding footer-branding">daddy bug's records</h2>
+        </div>
+        <div class="colophon-div">
+            <p class="colophon">site by satchwerk&copy;2021</p>
+            <p class="top-link">Back to <a href="#top">Top</a></p>
+        </div>
         <div class="contact" id="contact">
             <ul>
                 <li>email</li>
@@ -107,7 +120,6 @@
                 <li>twitter</li>
             </ul>
         </div>
-        <p class="top-link">Back to <a href="#top">Top</a></p>
     </footer>
 </body>
 </html>

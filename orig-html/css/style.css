@@ -53,3 +53,147 @@ ul {
     color: var(--secondary);
 }
 
+/* home section */
+
+.home-section {
+    margin: 20px auto;
+    padding: 10px; 
+    width: 90%;
+
+}
+
+.greeting {
+    font-size: 48px;
+    /* make fluid */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home-main-img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.text {
+    font-size: 22px; 
+}
+
+.text1 {
+    text-align: justify;
+}
+
+ .home-imgs {
+    width: 80%;
+    margin: 20px auto;
+} 
+
+.home-imgs img {
+    margin-top: 5px;
+}
+
+.home-text-div {
+    margin: 50px;
+}
+
+.footer {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: var(--primary);
+    color: var(--bg);
+}
+
+.branding {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.colophon {
+    font-size: 14px; 
+}
+
+.footer a {
+    color: var(--bg);
+}
+
+.footer a:hover {
+    color: var(--secondary);
+}
+
+/* about page */
+
+.about-main {
+    margin: 20px auto;
+    width: 90%;
+}
+
+.about-h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.about-img {
+    display: block;
+    margin: 50px 0;
+}
+
+.about-text {
+    font-size: 16px; 
+    text-align: justify;
+    margin: 30px 0;
+}
+
+/* records page */
+
+.records-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.aside {
+    width: 20%;
+}
+
+.aside-header {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.records-content {
+   margin-bottom: 40px;
+}
+
+.records-content-h2 {
+    font-size: 22px; 
+    text-transform: capitalize;
+}
+
+/* record-single page */
+
+.record-single-main section {
+    margin: 80px 0;
+}
+.rec-sg-album-h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.record-sg-artist {
+    text-transform: capitalize;
+}
+
+.record-sg-price {
+    font-style: italic;
+}
+
+.album-desc, .shipping-details {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--secondary);
+
+}
+
