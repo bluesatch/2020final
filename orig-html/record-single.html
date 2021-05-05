@@ -72,33 +72,35 @@
                     <div class="shipping-details">
                         <p class="shipping-text">How would you like to receive your item?</p>
                         <form action="">
-                            <label for="receiveItem">
+                            <label for="receiveItem" class="shipping-label">
                                 <input type="radio" name="receiveItem" value="shipping" />
                                 Shipping
                             </label>
-                            <label for="receiveItem">
+
+                            <label for="receiveItem" class="shipping-label">
                                 <input type="radio" name="receiveItem" value="store" />
                                 Store Pickup
-                                <address>
-                                    <p class="store-name">Daddy Bug Records</p>
-                                    <p>123 Sesame Street</p>
-                                    <p>Jackson, Ms 39000</p>
-                                </address>
                             </label>
-                        </form>
-                    </div>
-                    <div class="add-to-cart">
-                        <label for="quantity">
-                            Quantity <span class="required">*</span>
-                            <!-- quantity buttons -->
-                            <div class="quantity-buttons">
-                                <button type="button">-</button>
-                                <p id="quantityTotal">1</p>
-                                <button type="button">+</button>
-                            </div>
-                        </label>
-                        <button class="add-to-cart">add to cart</button>
-                    </div>
+                            <address>
+                                <p class="store-name">Daddy Bug Records</p>
+                                <p>123 Sesame Street</p>
+                                <p>Jackson, Ms 39000</p>
+                            </address>
+
+                        </div>
+                        <div class="add-to-cart">
+                            <p for="quantity">
+                                Quantity <span class="required">*</span>
+                            </p>
+                                <!-- quantity buttons -->
+                                <div class="quantity-buttons">
+                                    <button type="button" class="quantity-btn btn btn-secondary">-</button>
+                                    <p id="quantityTotal" class="quantity-total">1</p>
+                                    <button type="button" class="quantity-btn btn btn-secondary">+</button>
+                                </div>
+                            <button class="add-to-cart btn btn-secondary">add to cart</button>
+                        </div>
+                    </form>
                 </section>
             </div>
         </div>

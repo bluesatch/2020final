@@ -197,3 +197,36 @@ ul {
 
 }
 
+.shipping-label {
+    display: block;
+}
+
+address {
+    margin-top: 15px; 
+}
+
+address p {
+    margin: 0;
+}
+
+.quantity-buttons {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    /* border: 1px solid var(--primary) */
+}
+
+.quantity-btn {
+    width: 60px;
+    /* margin: 10px 20px; */
+}
+
+.quantity-total {
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    text-transform: uppercase;
+}
