@@ -14,6 +14,7 @@ CREATE TABLE artist
         fname VARCHAR(30),
         lname VARCHAR(30),
         alias VARCHAR(30),
+        -- can I store an array in mysql
         CONSTRAINT PRIMARY KEY (id)
     );
 
